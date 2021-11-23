@@ -1,3 +1,9 @@
+"""
+This core module is responsible for loading the raw StatsBomb data and building metadata objects.
+It is the only module that in touch with the raw StatsBomb dataset files, making them more easy to use for other modules.
+"""
+
+
 import pandas as pd
 import numpy as np
 import os
