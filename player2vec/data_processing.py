@@ -14,7 +14,7 @@ from sklearn.preprocessing import OrdinalEncoder, QuantileTransformer
 
 from player2vec.data_handler import load_all_events_data
 from player2vec.params import COLUMNS
-from player2vec.utils import to_metric_centered_coordinates, get_location_bin
+from player2vec.utils import get_location_bin
 
 
 class FootballTokenizer:

@@ -11,7 +11,6 @@ import numpy as np
 import pandas as pd
 
 from player2vec.params import COLUMNS, CONSTANTS
-from player2vec.utils import yard_2_meter
 
 
 class Pattern(object):
